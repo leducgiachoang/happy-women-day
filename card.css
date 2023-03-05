@@ -1,3 +1,5 @@
+    
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
     #card {
         margin: 8%;
         position: absolute;
@@ -30,10 +32,11 @@
         -webkit-text-fill-color: rgba(0, 200, 200, 0.1);
         -webkit-background-clip: text;
         background-image: url("https://i.pinimg.com/originals/20/21/7f/20217f7fa2c9701b8128d8fb153a4db9.gif");
-        font-family: 'Allura', cursive;
+        font-family: 'Dancing Script', cursive;
         padding: -2%;
-        font-size: 16px;
+        font-size: 21px;
         overflow: hidden;
+        font-weight: 700;
     }
 
     .card-show{
