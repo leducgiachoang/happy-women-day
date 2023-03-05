@@ -49,7 +49,7 @@
         display: none;
     }
 
-    @media only screen and (max-width: 739px){
+    /* @media only screen and (max-width: 739px){
         #card{
             transform: rotate(0);
             width: 90vw;
@@ -80,4 +80,4 @@
         .open_box_button{
             display: block;
         }
-    }
+    } */
