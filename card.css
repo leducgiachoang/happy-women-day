@@ -49,7 +49,12 @@
         display: none;
     }
 
-    /* @media only screen and (max-width: 739px){
+    @media only screen and (max-width: 739px){
+
+        body {
+            height: 100vh !important;
+            overflow: hidden;
+        }
         #card{
             transform: rotate(0);
             width: 90vw;
@@ -62,7 +67,7 @@
 
         button#open_box_button {
             z-index: 999999999999;
-            position: fixed;
+            position: sticky;
             bottom: 10px;
             left: 25px;
             right: 25px;
@@ -75,9 +80,11 @@
             text-transform: uppercase;
             font-weight: 300;
             font-family: revert;
+            width: 90%;
+            margin: auto;
         }
 
         .open_box_button{
             display: block;
         }
-    } */
+    }

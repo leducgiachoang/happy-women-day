@@ -30,7 +30,12 @@ function init() {
       presentImage.appendChild(_giftImg);
     }
   }
-  // document.getElementById('card').classList.add('card-show');
+
+  document.querySelector(".wrap-present").addEventListener("click", function(e){
+    console.log("sdijsid")
+    present.classList.toggle("open");
+    document.getElementById('card').classList.add('card-show');
+  });
 
   document.getElementById("open_box_button").addEventListener("click", function(e){
     present.classList.toggle("open");
