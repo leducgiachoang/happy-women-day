@@ -49,19 +49,25 @@
         display: none;
     }
 
+    #open_box_button.hide{
+        display: none !important;
+    }
+
     @media only screen and (max-width: 739px){
 
         body {
             height: 100vh !important;
             overflow: hidden;
         }
+       
         #card{
             transform: rotate(0);
             width: 90vw;
             left: 10px !important;
             right: 10px !important;
             margin: 0px;
-            
+            overflow: auto;
+            height: 95vh;
             top: 20px;
         }
 

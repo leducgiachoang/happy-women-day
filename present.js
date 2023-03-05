@@ -39,6 +39,7 @@ function init() {
 
   document.getElementById("open_box_button").addEventListener("click", function(e){
     present.classList.toggle("open");
+    document.getElementById("open_box_button").classList.add("hide")
     document.getElementById('card').classList.add('card-show');
   });
     
